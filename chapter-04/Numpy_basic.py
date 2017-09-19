@@ -5,33 +5,34 @@ from pprint import pprint
 # suppress 是否 禁止 使用 科学记数法（默认为False）打印小浮点值
 # '''
 np.set_printoptions(precision=4, suppress=True)
-#
-# '''
-# numpy.random.randn(d0, d1, …, dn)是从标准正态分布中返回一个或多个样本值。
-# numpy.random.rand(d0, d1, …, dn)的随机样本位于[0, 1)中。
-# '''
-# data_1 = np.random.randn(2, 3)
-#
-# print(data_1)
-#
-# # data_2 = np.random.rand(2, 3)
 # #
-# # print(data_2)
-#
-# print(data_1*10)
-#
-# print(data_1+data_1)
-#
-# # 数组 形状
+# # '''
+# # 正态分布（Normal distribution）
+# # numpy.random.randn(d0, d1, …, dn)是从标准正态分布中返回一个或多个样本值。
+# # numpy.random.rand(d0, d1, …, dn)的随机样本位于[0, 1)中。
+# # '''
+# data_1 = np.random.randn(2, 3)
+# #
+# print(data_1)
+# #
+# # # data_2 = np.random.rand(2, 3)
+# # #
+# # # print(data_2)
+# #
+# # print(data_1*10)
+# #
+# # print(data_1+data_1)
+# #
+# # # 数组 形状
 # print('数组 形状:', data_1.shape)
-#
-# # 数组 中 数据 的 类型
+# #
+# # # 数组 中 数据 的 类型
 # print('数组 中 数据 的 类型:', data_1.dtype)
-#
-# # 数组 的 维度
+# #
+# # # 数组 的 维度
 # print('数组 的 维度:', data_1.ndim)
-#
-# # --------------------------------------
+# #
+# # # --------------------------------------
 
 # # 将 data1 转换为 1*4 的数组
 # data1 = [6, 7.5, 8, 0, 1]
